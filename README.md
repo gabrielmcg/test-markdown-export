@@ -1,6 +1,6 @@
-# Page title here {#d2}
+# Page title here
 
-## Introduction {#d1e5}
+## Introduction
 
 HPE Enterprise Containers as a Service with Docker Enterprise Edition \(EE\) is a complete solution from Hewlett Packard Enterprise that includes all the hardware, software, professional services, and support you need to deploy a containers-as-a-service \(CaaS\) platform, allowing you to get up and running quickly and efficiently. The solution takes the HPE Synergy infrastructure and combines it with Docker’s enterprise-grade container platform, popular open source tools, along with deployment and advisory services from HPE Pointnext.
 
@@ -13,7 +13,7 @@ This document describes the best practices for deploying and operating HPE Enter
 -   The Ansible playbooks described in this document are only intended for Day 0 deployment automation of Docker EE on HPE Synergy.
 -   The Ansible playbooks described in this document are not directly supported by HPE and are intended as an example of deploying Docker EE on HPE Synergy. We welcome input from the user community via GitHub to help us prioritize all future bug fixes and feature enhancements.
 
-### About Ansible {#d1e33}
+### About Ansible
 
 Ansible is an open-source automation engine that automates software provisioning, configuration management and application deployment.
 
