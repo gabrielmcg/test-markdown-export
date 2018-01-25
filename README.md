@@ -2,7 +2,7 @@
 # test page
 
 
-<h2>Introduction</h2>
+<h2 class="title topictitle2" id="ariaid-title2">Introduction</h2>
 
 		<div class="body">
 			<p class="p">HPE Enterprise Containers as a Service with Docker Enterprise Edition (EE) is a complete solution from Hewlett Packard Enterprise that includes all the hardware, software, professional services, and support you need to deploy a containers-as-a-service (CaaS) platform, allowing you to get up and running quickly and efficiently. The solution takes the HPE Synergy infrastructure and combines it with Docker’s enterprise-grade container platform, popular open source tools, along with deployment and advisory services from HPE Pointnext.</p>
