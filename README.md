@@ -2,25 +2,24 @@
 # test page
 
 
-		<h2 class="title topictitle2" id="ariaid-title2">Introduction</h2>
+<h2 class="title topictitle2" id="ariaid-title2">Introduction</h2>
 
-		<div class="body">
-			<p class="p">HPE Enterprise Containers as a Service with Docker Enterprise Edition (EE) is a complete solution from Hewlett Packard Enterprise that includes all the hardware, software, professional services, and support you need to deploy a containers-as-a-service (CaaS) platform, allowing you to get up and running quickly and efficiently. The solution takes the HPE Synergy infrastructure and combines it with Docker’s enterprise-grade container platform, popular open source tools, along with deployment and advisory services from HPE Pointnext.</p>
+<div class="body">
+<p class="p">HPE Enterprise Containers as a Service with Docker Enterprise Edition (EE) is a complete solution from Hewlett Packard Enterprise that includes all the hardware, software, professional services, and support you need to deploy a containers-as-a-service (CaaS) platform, allowing you to get up and running quickly and efficiently. The solution takes the HPE Synergy infrastructure and combines it with Docker’s enterprise-grade container platform, popular open source tools, along with deployment and advisory services from HPE Pointnext.</p>
 
-			<p class="p">HPE Enterprise Containers as a Service with Docker EE is ideal for customers migrating legacy applications to containers, transitioning to a container DevOps development model or needing a hybrid environment to support container and non-containerized applications on a common VM platform. HPE Enterprise Containers as a Service with Docker EE provides a solution for IT operations, addressing the need to have a production ready environment that is very easy to deploy and manage.</p>
+<p class="p">HPE Enterprise Containers as a Service with Docker EE is ideal for customers migrating legacy applications to containers, transitioning to a container DevOps development model or needing a hybrid environment to support container and non-containerized applications on a common VM platform. HPE Enterprise Containers as a Service with Docker EE provides a solution for IT operations, addressing the need to have a production ready environment that is very easy to deploy and manage.</p>
 
-			<p class="p">This document describes the best practices for deploying and operating HPE Enterprise Containers as a Service with Docker EE. It describes how to automate the provisioning of the environment using a set of Ansible playbooks. It also outlines a set of manual steps to harden, secure and audit the overall status of the system.</p>
+<p class="p">This document describes the best practices for deploying and operating HPE Enterprise Containers as a Service with Docker EE. It describes how to automate the provisioning of the environment using a set of Ansible playbooks. It also outlines a set of manual steps to harden, secure and audit the overall status of the system.</p>
 
-			<p class="p">
-				<strong class="ph b">Note:</strong>
-			</p>
+<p class="p">
+<strong class="ph b">Note:</strong>
+</p>
 
-			<ul class="ul">
-				<li class="li">The Ansible playbooks described in this document are only intended for Day 0 deployment automation of Docker EE on HPE Synergy.</li>
+<ul class="ul">
+<li class="li">The Ansible playbooks described in this document are only intended for Day 0 deployment automation of Docker EE on HPE Synergy.</li>
+<li class="li">The Ansible playbooks described in this document are not directly supported by HPE and are intended as an example of deploying Docker EE on HPE Synergy. We welcome input from the user community via GitHub to help us prioritize all future bug fixes and feature enhancements.</li>
 
-				<li class="li">The Ansible playbooks described in this document are not directly supported by HPE and are intended as an example of deploying Docker EE on HPE Synergy. We welcome input from the user community via GitHub to help us prioritize all future bug fixes and feature enhancements.</li>
-
-			</ul>
+</ul>
 
 		</div>
 
