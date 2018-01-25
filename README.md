@@ -1,11 +1,7 @@
-	<h1 class="title topictitle1" id="ariaid-title1">Page title here</h1>
 
-	<div class="body">
-		<p class="p"></p>
+#test page
 
-	</div>
 
-	<div class="topic nested1" aria-labelledby="ariaid-title2" id="d1e5">
 		<h2 class="title topictitle2" id="ariaid-title2">Introduction</h2>
 
 		<div class="body">
