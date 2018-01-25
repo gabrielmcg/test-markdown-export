@@ -23,3 +23,21 @@ In contrast with other popular configuration management software, such as Chef, 
 
 More information about Ansible can be found at: [http://docs.ansible.com](http://docs.ansible.com/)
 
+
+
+|Key|Value Descriptions|
+|---|------------------|
+|mode|Specifies the bonding policy. Possible values are: -   balance-rr - Transmit packets in sequential order from the first available slave through the last.
+-   active-backup - Only one slave in the bond is active. A different slave becomes active if, and only if, the active slave fails.
+-   balance-xor - Transmit based on the selected transmit hash policy.
+-   broadcast - Transmits everything on all slave interfaces.
+-   802.3ad - IEEE 802.3ad Dynamic link aggregation.
+-   balance-tlb - Adaptive transmit load balancing: channel bonding that does not require any special switch support.
+-   balance-alb - Adaptive load balancing: includes balance-tlb plus receive load balancing \(rlb\) for IPV4 traffic and does not require any special switch support.
+
+ |
+|miimon|Specifies the MII link monitoring frequency in milliseconds. This determines how often the link state of each slave is inspected for link failures. Accepts values in milliseconds.|
+|primary|The device to use as the primary when the mode is one of the possible values below: -   active-backup
+-   balance-tlb
+-   balance-alb
+
