@@ -10,6 +10,6 @@ will need additional storage for File Persona
 
 ![HPE Synergy Solution][media-architecture1-png]
 
-**Figure 1. **HPE Synergy Solution
+**Figure 1.** HPE Synergy Solution
 
-[media-architecture1-png]:  </media/architecture1.png> "Figure 1. HPE Synergy Solution"
+[media-architecture1-png]:</media/architecture1.png> "Figure 1. HPE Synergy Solution"
