@@ -1,5 +1,43 @@
 # Introduction
 
+
+<table cellpadding="4" cellspacing="0" summary="" id="vdvs-components-table__vdvs-components-table-content" class="table" frame="border" border="1" rules="all"><caption><span class="tablecap"><span class="table--title-label">Table 1. </span>vSphere Docker Volume service components</span></caption>
+<colgroup>
+<col />
+<col />
+<col />
+<col />
+</colgroup>
+<thead class="thead" style="text-align:left;">
+						<tr class="row">
+							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e52">Order</th>
+							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e55">Component</th>
+						  <th class="entry nocellnorowborder" align="left" valign="top" id="d30e58">Dependency (compatibility)</th>
+						  <th class="entry cell-norowborder" align="left" valign="top" id="d30e61">Download/Documentation</th>
+						</tr>
+					</thead>
+<tbody class="tbody">
+						<tr class="row">
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e52 ">1.</td>
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e55 ">Server Software</td>
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e58 "><ol class="ol"><li class="li">VMware ESXi</li>
+<li class="li">Docker EE</li>
+</ol>
+</td>
+							<td class="entry cell-norowborder" rowspan="2" align="left" valign="top" headers="d30e61 ">vSphere Docker Volume Service on GitHub</td>
+						</tr>
+					  <tr class="row">
+							<td class="entry row-nocellborder" align="left" valign="top" headers="d30e52 ">2.</td>
+							<td class="entry row-nocellborder" align="left" valign="top" headers="d30e55 ">Client Software</td>
+							<td class="entry cellrowborder" align="left" valign="top" headers="d30e58 "><ol class="ol"><li class="li">VM Operating System</li>
+<li class="li">Docker EE</li>
+</ol>
+</td>
+						</tr>
+					</tbody>
+
+</table>
+
 HPE Enterprise Containers as a Service with Docker Enterprise Edition \(EE\) is a complete solution from Hewlett Packard Enterprise that includes all the hardware, software, professional services, and support you need to deploy a containers-as-a-service \(CaaS\) platform, allowing you to get up and running quickly and efficiently. The solution takes the HPE Synergy infrastructure and combines it with Docker’s enterprise-grade container platform, popular open source tools, along with deployment and advisory services from HPE Pointnext.
 
 HPE Enterprise Containers as a Service with Docker EE is ideal for customers migrating legacy applications to containers, transitioning to a container DevOps development model or needing a hybrid environment to support container and non-containerized applications on a common VM platform. HPE Enterprise Containers as a Service with Docker EE provides a solution for IT operations, addressing the need to have a production ready environment that is very easy to deploy and manage.
