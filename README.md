@@ -1,7 +1,49 @@
 # Introduction
 
+<table cellpadding="4" cellspacing="0" summary="" id="variables-table__variables-table-content" class="table" frame="void" border="1" rules="all"><caption><span class="tablecap"><span class="table--title-label">Table 1. </span>Variables</span></caption>
+<colgroup>
+<col />
+<col />
+<col />
+</colgroup>
+<thead class="thead" style="text-align:left;">
+						<tr class="row">
+							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e71">Variable</th>
+							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e74">Scope</th>
+							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e77">Description</th>
+						</tr>
+					</thead>
+<tbody class="tbody">
+							<tr class="row">
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e71 ">ip_addr</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e74 ">Node</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e77 ">IP address in CIDR format to be given to a node</td>
+							</tr>
+							<tr class="row">
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e71 ">esxi_host</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e74 ">Node</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e77 ">ESXi host where the node will be deployed. If the cluster is configured with DRS, this option will be overriden</td>
+							</tr>
+							<tr class="row">
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e71 ">cpus</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e74 ">Node/Group</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e77 ">Number of CPUs to assign to a VM or a group of VMs</td>
+							</tr>
+							<tr class="row">
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e71 ">ram</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e74 ">Node/Group</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e77 ">Amount of RAM in MB to assign to a VM or a group of VMs</td>
+							</tr>
+							<tr class="row">
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e71 ">disk2_usage</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e74 ">Node/Group</td>
+								<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e77 ">Size of the second disk in GB to attach to a VM or a group of VMs. This variable is only mandatory on Docker nodes (UCP, DTR, worker) and NFS node. It is not required for the logger node or the load balancers.</td>
+							</tr>
+						</tbody>
 
-<table cellpadding="4" cellspacing="0" summary="" id="vdvs-components-table__vdvs-components-table-content" class="table" frame="border" border="1" rules="all"><caption><span class="tablecap"><span class="table--title-label">Table 1. </span>vSphere Docker Volume service components</span></caption>
+</table>
+
+<table cellpadding="4" cellspacing="0" summary="" id="vdvs-components-table__vdvs-components-table-content" class="table" frame="void" border="1" rules="all"><caption><span class="tablecap"><span class="table--title-label">Table 2. </span>vSphere Docker Volume service components</span></caption>
 <colgroup>
 <col />
 <col />
@@ -10,26 +52,26 @@
 </colgroup>
 <thead class="thead" style="text-align:left;">
 						<tr class="row">
-							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e52">Order</th>
-							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e55">Component</th>
-						  <th class="entry nocellnorowborder" align="left" valign="top" id="d30e58">Dependency (compatibility)</th>
-						  <th class="entry cell-norowborder" align="left" valign="top" id="d30e61">Download/Documentation</th>
+							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e179">Order</th>
+							<th class="entry nocellnorowborder" align="left" valign="top" id="d30e182">Component</th>
+						  <th class="entry nocellnorowborder" align="left" valign="top" id="d30e185">Dependency (compatibility)</th>
+						  <th class="entry nocellnorowborder" align="left" valign="top" id="d30e188">Download/Documentation</th>
 						</tr>
 					</thead>
 <tbody class="tbody">
 						<tr class="row">
-							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e52 ">1.</td>
-							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e55 ">Server Software</td>
-							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e58 "><ol class="ol"><li class="li">VMware ESXi</li>
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e179 ">1.</td>
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e182 ">Server Software</td>
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e185 "><ol class="ol"><li class="li">VMware ESXi</li>
 <li class="li">Docker EE</li>
 </ol>
 </td>
-							<td class="entry cell-norowborder" rowspan="2" align="left" valign="top" headers="d30e61 ">vSphere Docker Volume Service on GitHub</td>
+							<td class="entry nocellnorowborder" rowspan="2" align="left" valign="middle" headers="d30e188 ">vSphere Docker Volume Service on GitHub</td>
 						</tr>
 					  <tr class="row">
-							<td class="entry row-nocellborder" align="left" valign="top" headers="d30e52 ">2.</td>
-							<td class="entry row-nocellborder" align="left" valign="top" headers="d30e55 ">Client Software</td>
-							<td class="entry cellrowborder" align="left" valign="top" headers="d30e58 "><ol class="ol"><li class="li">VM Operating System</li>
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e179 ">2.</td>
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e182 ">Client Software</td>
+							<td class="entry nocellnorowborder" align="left" valign="top" headers="d30e185 "><ol class="ol"><li class="li">VM Operating System</li>
 <li class="li">Docker EE</li>
 </ol>
 </td>
