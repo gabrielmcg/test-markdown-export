@@ -141,7 +141,6 @@
 <meta name="DC.Format" content="XHTML" />
 <meta name="DC.Identifier" content="introduction" />
 <link rel="stylesheet" type="text/css" href="commonltr.css" />
-<title>Introduction</title>
 </head>
 <body>
 <div class="nested0" aria-labelledby="ariaid-title1" id="introduction">
@@ -2473,7 +2472,7 @@ and vCenter.</p>
 <p class="p"> vSphere Docker Volume service plug-in is part of an open source project by VMware that
 enables running stateful containers by providing persistent Docker volumes leveraging
 existing storage technology from VMware. There are two parts to the plug-in, namely, client
-software and server software (see Table <a class="xref" href="#lifecycle__vdvs-components-table-conref">Table 9</a>). Every version of the plug-in that is released
+software and server software (see <a class="xref" href="#lifecycle__vdvs-components-table-conref">Table 9</a>). Every version of the plug-in that is released
 includes both pieces of software and it is imperative that the version number installed on
 the client side and server side are the same. </p>
 
