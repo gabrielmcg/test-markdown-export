@@ -1,4 +1,4 @@
-
+<body>
 <div class="nested0" aria-labelledby="ariaid-title1" id="introduction">
 <h1 class="title topictitle1" id="ariaid-title1">Introduction</h1>
 
@@ -1190,7 +1190,6 @@ download and install the latest release of vDVS driver.</p>
 
 <pre class="pre codeblock"><code># esxcli software vib install -v /tmp/vmware-esx-vmdkops-&lt;version&gt;.vib --no-sig-check</code></pre>
 
-
 <p class="p">More information on how to download and install the driver can be found at <a class="xref" href="http://vmware.github.io/vsphere-storage-for-docker/documentation/install.html" target="_blank">http://vmware.github.io/vsphere-storage-for-docker/documentation/install.html</a></p>
 
 
@@ -2081,7 +2080,7 @@ nodes will be actioned. The default value is
 <p class="p">All Monitoring-related variables are described in Table 9. The variables determine
 the versions of various monitoring software tools that are used and it is
 recommended that the values given below are used.</p>
-
+ 
 
 
 
@@ -2373,7 +2372,8 @@ running is supported and that the client software is compatible with the operati
 
 
 </div>
-
+ 
 </div>
 
 </div>
+</body>
